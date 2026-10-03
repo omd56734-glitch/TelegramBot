@@ -83,7 +83,7 @@ def main():
     app.add_handler(CommandHandler("account", show_account))
     app.add_handler(CommandHandler("earn", generate_and_send_captcha))
     app.add_handler(CommandHandler("refer", show_refer))
-    app.add_handler(CommandHandler("withdraw", show_withdraw))
+    app.add_handler(CommandHandler("withdraw", show_withdraw_menu))
     app.add_handler(CommandHandler("support", show_support))
     app.add_handler(CommandHandler("language", show_language))
     
