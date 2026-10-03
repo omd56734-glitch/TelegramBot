@@ -1,0 +1,10 @@
+pyrogram
+tgcrypto
+requests
+pymongo
+motor
+Pillow
+psutil
+aiohttp
+certifi
+dnspython
