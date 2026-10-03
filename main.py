@@ -9,7 +9,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 from earn import generate_and_send_captcha, handle_earn_message
 from account import show_account
 from refer import show_refer
-from withdraw import show_withdraw
+from withdraw import show_withdraw_menu
 from support import show_support
 from language import show_language
 
