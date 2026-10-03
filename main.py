@@ -6,12 +6,12 @@ from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
 # handlers ফোল্ডার থেকে ফাংশন ইমপোর্ট করুন
-from handlers.earn import generate_and_send_captcha, handle_earn_message
-from handlers.account import show_account
-from handlers.refer import show_refer
-from handlers.withdraw import show_withdraw
-from handlers.support import show_support
-from handlers.language import show_language
+from earn import generate_and_send_captcha, handle_earn_message
+from account import show_account
+from refer import show_refer
+from withdraw import show_withdraw
+from support import show_support
+from language import show_language
 
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
