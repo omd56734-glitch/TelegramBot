@@ -1,5 +1,4 @@
-pyrogram
-tgcrypto
+python-telegram-bot
 requests
 pymongo
 motor
@@ -8,3 +7,5 @@ psutil
 aiohttp
 certifi
 dnspython
+cryptography
+beautifulsoup4
